@@ -22,7 +22,7 @@ public partial class Flickr
     {
         var result = await GetGenericResponseAsync<T>(parameters, cancellationToken);
 
-        if (result.Content is TResponse value)
+        if (result.Content is { } value)
         {
             return value;
         }

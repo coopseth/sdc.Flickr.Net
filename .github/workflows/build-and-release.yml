@@ -67,8 +67,8 @@ jobs:
           cat > notes.md << EOF
           🎯 Flickr.Net v$VERSION
           
-          📦 NuGet: https://nuget.org/packages/Flickr.Net
-          🔗 Release: https://github.com/st0o0/Flickr.Net/releases/v$VERSION
+          📦 NuGet: https://nuget.org/packages/sdc.Flickr.Net
+          🔗 Release: https://github.com/coopseth/sdc.Flickr.Net/releases/v$VERSION
           
           See release page for full changelog and details!
           
@@ -178,7 +178,7 @@ jobs:
           VERSION: ${{ needs.build.outputs.releaseVersion }}
         run: |
           cat > notes.md << EOF
-          🎯 Flickr.Net v$VERSION
+          🎯 sdc.Flickr.Net v$VERSION
           
           [![NuGet](https://img.shields.io/nuget/v/Signal.Bot?logo=nuget)](https://nuget.org/packages/Signal.Bot)
           [![GitHub](https://img.shields.io/github/last-commit/st0o0/Signal.Bot/main?logo=github)](https://github.com/st0o0/Signal.Bot)
