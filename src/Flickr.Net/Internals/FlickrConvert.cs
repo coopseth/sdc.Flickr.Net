@@ -44,6 +44,7 @@ public static class FlickrConvert
                     CustomJsonStringEnumConverter.Instance,
                     AutoStringToNumberConverter.Instance,
                     AutoNumberToStringConverter.Instance,
+                    TimestampToDateTimeConverter.Instance,
                     BoolConverter.Instance,
                     IdentifierTypeConverter.Instance
                 },

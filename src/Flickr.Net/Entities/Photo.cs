@@ -13,6 +13,6 @@ public record Photo : UltraDeluxePhotoBase
     /// <summary>
     /// </summary>
     [JsonPropertyName("datetaken")]
-    [JsonConverter(typeof(MySqlToDateTimeConverter))]
+    [JsonConverter(typeof(DateTimeGranularityConverter))]
     public DateTime DateTaken { get; set; }
 }
