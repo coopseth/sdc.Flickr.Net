@@ -6,10 +6,10 @@
         <PackageTags>Flickr;Api;Photo;Video</PackageTags>
         <!--        <PackageIcon>logo_small.png</PackageIcon>-->
         <PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageId>sdc.Flickr.Net</PackageId>
+		<PackageId>coopseth.Flickr.Net</PackageId>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
-        <PackageProjectUrl>https://github.com/coopseth/sdc.Flickr.Net</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/coopseth/sdc.Flickr.Net.git</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/coopseth/coopseth.Flickr.Net</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/coopseth/coopseth.Flickr.Net.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <Copyright>Copyright (c) 2023-$([System.DateTime]::Now.Year) st0o0, coopseth</Copyright>
     </PropertyGroup>
