@@ -1,6 +1,7 @@
 ﻿using System.Text.Json.Serialization;
 using Flickr.Net.Bases;
 using Flickr.Net.Internals.Attributes;
+using Flickr.Net.Internals.JsonConverters;
 
 namespace Flickr.Net;
 
@@ -11,10 +12,7 @@ public record Photo : UltraDeluxePhotoBase
 {
     /// <summary>
     /// </summary>
-    [JsonPropertyName("dateadded")]
-    public DateTime AddedDate { get; set; }
-    /// <summary>
-    /// </summary>
     [JsonPropertyName("datetaken")]
+    [JsonConverter(typeof(MySqlToDateTimeConverter))]
     public DateTime DateTaken { get; set; }
 }

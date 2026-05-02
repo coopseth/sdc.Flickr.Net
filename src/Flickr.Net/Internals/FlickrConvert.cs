@@ -45,7 +45,6 @@ public static class FlickrConvert
                     AutoStringToNumberConverter.Instance,
                     AutoNumberToStringConverter.Instance,
                     BoolConverter.Instance,
-                    TimestampToDateTimeConverter.Instance,
                     IdentifierTypeConverter.Instance
                 },
                 TypeInfoResolver = new DefaultJsonTypeInfoResolver().WithAddedModifier(static typeInfo =>
